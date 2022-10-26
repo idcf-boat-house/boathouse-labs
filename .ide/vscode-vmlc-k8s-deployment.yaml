@@ -28,6 +28,7 @@ spec:
       ports:
         - containerPort: 3000
         - containerPort: 22
+        - containerPort: 3001
 
 ---
 
@@ -43,6 +44,9 @@ spec:
     - name: "6822"
       port: 6822
       targetPort: 22
+     - name: "3001"
+      port: 3001
+      targetPort: 3001
   selector:
     smartide-java.service: smartide-java
 status:
