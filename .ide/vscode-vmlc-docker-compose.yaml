@@ -14,6 +14,7 @@ services:
       - 6800:3000
       - 3001:3001
       - 3002:3002
+      - 8080:8080
     networks:
       - smartide-network  
 

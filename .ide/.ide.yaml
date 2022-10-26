@@ -11,6 +11,7 @@ workspace:
       tools-ssh: 6822
       apps-port-3001: 3001
       apps-port-3002: 3002
+      apps-port-8080: 8080
     ide-type: vscode
 
     volumes: 
